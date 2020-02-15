@@ -1,0 +1,75 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled4.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyOXPAjQQU726VQ1Y+4lbPtd",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ShaikFarid0/shaikfarid/blob/master/Data%20Frame.head\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "l1hftm-CltHm",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 153
+        },
+        "outputId": "f95ac920-08f4-494e-e74c-26160d96aee8"
+      },
+      "source": [
+        "import pandas as pd\n",
+        "df=pd.read_csv(\"/content/sample_data/california_housing_test.csv\")\n",
+        "print(df.head())"
+      ],
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "   longitude  latitude  ...  median_income  median_house_value\n",
+            "0    -122.05     37.37  ...         6.6085            344700.0\n",
+            "1    -118.30     34.26  ...         3.5990            176500.0\n",
+            "2    -117.81     33.78  ...         5.7934            270500.0\n",
+            "3    -118.36     33.82  ...         6.1359            330000.0\n",
+            "4    -119.67     36.33  ...         2.9375             81700.0\n",
+            "\n",
+            "[5 rows x 9 columns]\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "SpPffZRTlty5",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
